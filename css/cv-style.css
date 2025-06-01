@@ -1,11 +1,11 @@
 :root {
     --bg-body: #f8f9fa;
     --bg-cv-container: #ffffff;
-    --bg-left-col: #ebe7af;
+    --bg-left-col: lightgoldenrodyellow;
     --bg-section-title: #d6af2e;
-    --bg-skill-box: lightgoldenrodyellow;
+    --bg-skill-box: #ebe7af;
     --section-title-color: white;
-    --text-link: brown;
+    --text-link: #746124;
     --border-color: #ccc;
 }
 
@@ -93,4 +93,11 @@ a:focus {
         background: white;
         padding: 0;
     }
+    .language-switcher {
+        display: none;
+    }
+}
+.language-switcher {
+    text-align: right;
+    margin: 1rem;
 }
